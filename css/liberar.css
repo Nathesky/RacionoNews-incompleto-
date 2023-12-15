@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    transition: all 3s;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(233, 233, 233);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#butaomenu{
+    background-color: transparent;
+    background-image: url('../assets/images/menuzin.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 2.5rem; 
+    height: 2.5rem; 
+    border: none; 
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#butaomenu:hover,
+#butaologin:hover{
+    transform: scale(0.97);
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    padding-left: 1rem;
+    justify-content: center; 
+    flex-direction: row;
+    align-items: center; 
+}
+
+.ranew{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    text-align: justify;
+}
+
+#ranews{
+    margin-left: -2rem;
+    line-height: 1;
+    font-size: 1.8rem;
+    background: linear-gradient(90deg,#27c0fe,#a931ff,#4a3499 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+#logoRaciono{
+    width: 8rem;
+    height: 6rem;
+}
+
+main{
+    margin: 2em;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    background-color: rgb(255, 255, 255);
+  }
+
+.tabela {
+    width: auto;
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    border: solid 4px #4a3499;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40px;
+    align-items: center;
+    background-color: #a931ffab;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    border-radius: 13px;
+  }
+  
+.coluna, .id-user, .situacao {
+    font-weight: bolder;
+    border-radius: 10px;
+    border: solid 1px #4a3499;
+}
+
+  .tabela div {
+    text-align: center;
+    padding: 4px;
+  }
+
+  .liberar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #liberar{
+    background-color: #161753;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  #liberar:hover{
+    background-color: whitesmoke;
+    color: #27c0fe;
+  }
+
+  .voltar{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    align-items: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.voltar, h6:hover{
+    color: rgb(112, 112, 112);
+    cursor: pointer;
+    transform: scale(0.95);
+}
+
+a{
+    text-decoration: none;
+}
+
+h6{
+    margin: 0.5rem;
+    color: black;
+}
+
